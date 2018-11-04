@@ -23,3 +23,19 @@ std::string in = "11";
 input.push_back(in);
 bdt andbdt = buildbdt(input);
 ```
+
+The build function constructs a binary tree of 'n' binary variables (two in the above case), indepdent of the boolean logic operator. 
+
+For example, the same function can be called to represent the 'or' operator:
+
+```
+std::vector<std::string> input;
+std::string in = "10";
+input.push_back(in);
+in = "11";
+input.push_back(in);
+in = "01";
+input.push_back(in);
+bdt orbdt = buildbdt(input);
+
+```
