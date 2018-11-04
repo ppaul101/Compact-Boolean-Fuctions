@@ -40,4 +40,6 @@ bdt orbdt = buildbdt(input);
 
 ```
 
-We can construct the logic for the truth table below:
+We can also construct the logic for the truth table below, using 'buildbdt':
+[!image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/larger%20truth%20table.jpg)
+
