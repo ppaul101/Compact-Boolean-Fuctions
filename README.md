@@ -43,3 +43,15 @@ bdt orbdt = buildbdt(input);
 We can also construct the logic for the truth table below, using 'buildbdt':
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/larger%20truth%20table.jpg)
 
+This is achieved using the following vector of strings:
+```
+
+std::vector<std::string> input;
+std::string in = "000010";
+input.push_back(in);
+in = "010010";
+input.push_back(in);
+in = "110011";
+input.push_back(in);
+bdt fbdt = buildbdt(input);
+```
