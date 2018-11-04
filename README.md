@@ -102,4 +102,4 @@ can be more compactly represented as:
 'evalcompactbdt' is similar to 'evalbdt', however it operates on the simplified binary tree. 
 
 ## The report
-Here is a link to me final project report, in PDF format: https://bit.ly/2QceBYf
+Here is a link to my final project report, in PDF format: https://goo.gl/uGDYLT
