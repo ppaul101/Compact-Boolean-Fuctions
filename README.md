@@ -39,3 +39,5 @@ input.push_back(in);
 bdt orbdt = buildbdt(input);
 
 ```
+
+We can construct the logic for the truth table below:
