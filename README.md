@@ -85,3 +85,14 @@ For example, the previous 'and' binary tree:
 can be simplified to the following:
 
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Simplified%20and.jpg)
+
+
+In addition, the binary tree below:
+
+![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Grandparent%20complex.jpg)
+
+
+can be more compactly represented as:
+
+![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Grandparent%20simplified.jpg)
+
