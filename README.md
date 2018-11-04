@@ -11,10 +11,15 @@ This can be expressed using the following binary tree:
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Binary%20tree.jpg)
 
 
-The function 'buildbdt' takes in a vector of strings as input in order to construct the binary tree. These strings represent the binary values '1'. 
+The function 'buildbdt' takes in a vector of strings as input in order to construct the binary tree. 'buildbdt' returns a pointer to the root node of the tree data structure. 
 
-For example:
+The input strings correspond to the binary values '1'. 
+
+For the above example with only two binary variables:
 
 ```
-hi
+std::vector<std::string> input;
+std::string in = "11";
+input.push_back(in);
+bdt andbdt = buildbdt(input);
 ```
