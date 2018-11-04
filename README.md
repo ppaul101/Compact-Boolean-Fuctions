@@ -98,7 +98,7 @@ can be more compactly represented as:
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Grandparent%20simplified.jpg)
 
 
-## The function evalcompactbdt
+## The function 'evalcompactbdt'
 'evalcompactbdt' is similar to 'evalbdt', however it operates on the simplified binary tree. 
 
 ## The report
