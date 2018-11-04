@@ -10,7 +10,7 @@ This can be expressed using the following binary tree:
 
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Binary%20tree.jpg)
 
-
+## The function 'buildbdt'
 The function 'buildbdt' takes in a vector of strings as input in order to construct the binary tree. 'buildbdt' returns a pointer to the root node of the tree data structure. 
 
 The input strings correspond to the binary values '1'. 
@@ -53,3 +53,23 @@ in = "110011";
 input.push_back(in);
 bdt fbdt = buildbdt(input);
 ```
+
+## The function 'evalbdt'
+The function 'evalbdt' returns the string corresponding to the value of node specified by its input parameter. 
+
+For example:
+```
+std::vector<std::string> input;
+std::string in = "000010";
+input.push_back(in);
+in = "010010";
+input.push_back(in);
+in = "110011";
+input.push_back(in);
+bdt fbdt = buildbdt(input);
+std::cout << evalbdt(fbdt, "000010") << std::endl;
+// prints "1"
+std::cout << evalbdt(fbdt, "000001") << std::endl;
+// prints "0"
+```
+
