@@ -42,6 +42,7 @@ bdt orbdt = buildbdt(input);
 We can also construct the logic for the truth table below, using 'buildbdt':
 ![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/larger%20truth%20table.jpg)
 
+
 This is achieved using the following vector of strings:
 ```
 std::vector<std::string> input;
@@ -78,7 +79,7 @@ std::cout << evalbdt(fbdt, "000001") << std::endl;
 
 For example, the previous 'and' binary tree:
 
-![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Truth%20table.jpg)
+![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Binary%20tree.jpg)
 
 
 can be simplified to the following:
