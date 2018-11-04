@@ -73,3 +73,14 @@ std::cout << evalbdt(fbdt, "000001") << std::endl;
 // prints "0"
 ```
 
+## The function 'buildcompactbdt'
+'buildcompactbdt' takes in the same inputs as 'buildbdt', however it greatly simplifies the boolean logic represented by the binary tree. 
+
+For example, the previous 'and' binary tree:
+
+![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Truth%20table.jpg)
+
+
+can be simplified to the following:
+
+![image](https://github.com/ppaul101/Compact-Boolean-Fuctions/blob/master/Compact-Boolean-Fuctions/Images%20for%20readme/Simplified%20and.jpg)
