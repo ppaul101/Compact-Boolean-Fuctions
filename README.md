@@ -37,7 +37,6 @@ input.push_back(in);
 in = "01";
 input.push_back(in);
 bdt orbdt = buildbdt(input);
-
 ```
 
 We can also construct the logic for the truth table below, using 'buildbdt':
@@ -45,7 +44,6 @@ We can also construct the logic for the truth table below, using 'buildbdt':
 
 This is achieved using the following vector of strings:
 ```
-
 std::vector<std::string> input;
 std::string in = "000010";
 input.push_back(in);
